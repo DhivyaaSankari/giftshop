@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Dhiya Gift Shop</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="login.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="header">
+  <h1>Dhiya Gift Shop</h1>
+  <p>Created by Dhivyaa Sankari</p>
+</div>
+
+<div class="navbar">
+  <a href="./vid.html">Home</a>
+  <a href="./about.html">About</a>
+  <a href="">Order</a>
+  <a href="./log.html" class="right">Login</a>
+</div>
+<br>
+<center>
+	<span id="reg">Registeration</span>
+</center>
+<form>
+<div class="row">
+  <div class="main">
+    <fieldset>
+		<legend><big><b><i>Personal Details</i></b></big></legend>
+		<label for="name">Name:<sup>*</sup></label>
+		<br>
+		<input type="text" id="name" name="name" required>
+		<br>
+		<br>
+		<label for="lname">Last Name:<sup>*</sup></label>
+		<br>
+		<input type="text" id="lname" name="name" required>
+		<br>
+		<br>
+		<label for="mail">Email:<sup>*</sup></label>
+		<br>
+		<input type="email" id="mail" name="email" required>
+		<br>
+		<br>
+		<label for="pwd">Password:<sup>*</sup></label>
+		<br>
+		<input type="password" id="pwd" name="pwd" minlength="8" >
+		<br>
+		<br>
+		<label for="ref">Referal Code:</label>
+		<br>
+		<input type="text" id="refcode" name="refcode">
+		<br>
+		<br>
+		<label for="dob">Date Of Birth:<sup>*</sup></label>
+		<br>
+		<input type="date" id="dob" name="dob" required>
+		<br>
+		<br>
+		<label for="subs">Get offer mails:</label>
+		<br>
+		<div class="option">
+		<input type="radio" id="subs" name="subs" value="Yes">Yes </input>
+		<br>
+		<input type="radio" id="subs" name="subs" value="Unmarried">No</input>
+		<br>
+		</div>
+		<br>
+	</fieldset>
+			
+  </div>
+  <div class="main">
+		<fieldset>
+			<legend><big><b><i>Contact Details</i></b></big></legend>
+			
+			<label for="add">Address:<sup>*</sup></label>
+			<br>
+			<textarea id="add" rows="7" cols="30" placeholder="Enter your address" required></textarea>
+			<br>
+			<br>
+			<label for="city">City:<sup>*</sup></label>
+			<br>
+			<input list="cit" id="city" name="city" required>
+			<datalist id="cit">
+				<option>Madurai</option>
+				<option>Coimbatore</option>
+				<option>Chennai</option>
+				<option>Banglore</option>
+			</datalist>
+			<br>
+			<br>
+			<label for="sta">State:<sup>*</sup></label>
+			<br>
+			<input list="state" id="sta" name="sta" required>
+			<datalist id="state">
+				<option>Tamilnadu</option>
+				<option>Andhra Pradesh</option>
+				<option>Karnataka</option>
+				<option>Kerala</option>
+			</datalist>
+			<br>
+			<br>
+			<label for="Zc">Zipcode:<sup>*</sup></label>
+			<input id="Zc" type="tel" name="zc" pattern="[0-9]{6}" required>
+			<br>
+			<br>
+			<label for="country">Country:<sup>*</sup></label>
+			<select id="country" required >
+				<option>India</option>
+			</select>
+			<br>
+			<br>
+			<label for="mob1">Mobile 1:<sup>*</sup></label>
+			<input id="mob1" type="tel" name="mob1" pattern="[0-9]{10}" required>
+			<span>&nbsp&nbsp</span>
+			<label for="mob2">Mobile 2:</label>
+			<input id="mob2" type="tel" name="mob2" pattern="[0-9]{10}">
+			<br>
+		</fieldset>
+  </div>
+</div>
+	<br>
+	<center>
+	<input  class="buttons"  type="submit" value="Register">
+	<p id="lin">If you already have an account <a href="./log.html">Login</a></p>
+	</center>
+	<br>
+</form>
+<div id="con" class="footer">
+  <h2>Contact</h2>
+  <span ><img  src="./img/mail.png"/> : <a href="mailto: dhiya@gmail.com"> dhiyagifts@gmail.com</a></span>
+  <span><img src="./img/insta.png"/> : <a href="https://instagram.com/Dhiya_gift_shop">@dhiya_gift_shop</a></span>
+  <span><img src="./img/what.png" /> : <a href="https://wa.me/9876543210">+91 9876543210</a></span>
+</div>
+
+</body>
+</html>
