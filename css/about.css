@@ -1,0 +1,160 @@
+* {
+	box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:justify;
+	margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+	padding: 80px;
+	text-align: center;
+	background: #1abc9c;
+	background-image:url(../img/bg1.jpg);
+	opacity:1.2;
+	background-size:100% 100%;
+	color:#FFB3CBFF;
+	font-family:Blackadder ITC;
+	text-shadow:4px 4px 2px black;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+	font-size: 40px;
+	color:#fffedb;
+	font-weight:bold;
+	text-shadow: 2px 2px 5px black;
+}
+.header p {
+	color:white;
+}
+/* Style the top navigation bar */
+.navbar {
+	overflow: hidden;
+	background-color:#BA252EFF ;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+	float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+	background-color: #ddd;
+	color:#BA252EFF;
+	font-weight:bold;
+}
+
+/* Column container */
+.row {  
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap; /* IE10 */
+	flex-wrap: wrap;
+}
+h2,h3
+{
+	color:#BA252EFF;
+	font-family:Algerian;
+	text-shadow: 2px 2px 3px black;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+	-ms-flex: 30%; /* IE10 */
+	flex: 30%;
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+
+/* Main column */
+.main {   
+	-ms-flex: 70%; /* IE10 */
+	flex: 70%;
+	background-color: white;
+	padding: 20px;
+}
+.main p{
+	margin-left:8%;
+	margin-right:8%;
+}
+/* Fake image, just for this example */
+.fakeimg {
+	width: 100%;
+	padding: 10px;
+}
+.re
+{
+	border:solid black 2px;
+	border-radius:5%;
+	box-shadow:8px 8px 8px black;
+	width:80%;
+	margin-left:10%;
+	height:300px;
+}
+
+/* Footer */
+.footer {
+	padding: 20px;
+	font-size:20px;
+	text-align: center;
+	background: #ddd;
+}
+h5
+{
+	font-size:20px;
+	font-family:Colonna MT;
+}
+.row p
+{
+	font-family:Footlight MT;
+}
+#con img
+{
+	margin-left:75px;
+	width:20px;
+	aspect-ratio:3/2;
+	object-size:fit;
+}
+#con a
+{
+	text-decoration:none;
+	color:black;
+}
+#con a:hover
+{
+	color:#BA252EFF;
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+	flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+.side p{
+	margin-left:8%;
+	margin-right:8%;
+}
