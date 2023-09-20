@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+
+/* Style the body */
+p,a{
+	font-size:16px !important;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:justify;
+	line-height:1.5 !important;
+	color:#BA252EFF;
+	margin: 0;
+}
+.head{
+	background-image:url('../img/bg1.jpg');
+	padding: 80px;
+	background-size:100% 100%;
+	font-family:Blackadder ITC;
+	text-shadow:4px 4px 2px black;
+}
+.head h1{
+	all:revert;
+	font-size: 40px;
+	color:#fffedb;
+	font-weight:bold;
+	line-height:1.5;
+	box-sizing: border-box;
+	text-shadow: 2px 2px 5px black;
+}
+.head p{
+	all:revert;
+	font-size:revert;
+	color:white;
+	box-sizing: border-box;
+	line-height:1.5;
+	font-size:16px;
+	text-shadow:4px 4px 2px black;
+}
+.navbar{
+	overflow: hidden;
+	border-radius:revert;
+	padding:revert;
+	background-color:#BA252EFF ;
+}
+.navbar a{
+	color:white;
+}
+.navbar-nav li a{	
+	padding:14px 20px;
+	font-size:16px;
+}
+.navbar li:hover a{
+	color:#BA252EFF;
+	font-weight:bold;
+}
+.row h1{
+	font-family:Algerian;
+}
+.row h3{
+	font-family:Footlight MT;
+}
+.footer {
+	padding: 20px;
+	font-size:20px;
+	text-align: center;
+	background: #ddd;
+}
+#con img
+{
+	width:20px;
+	aspect-ratio:3/2;
+	object-size:fit;
+}
+#con a
+{
+	text-decoration:none;
+	font-family:arial;
+	color:black;
+}
+#con a:hover
+{
+	color:#BA252EFF;
+}
